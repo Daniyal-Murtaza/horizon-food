@@ -7,9 +7,11 @@ To view live version of website tested on 000webhost:
 https://horizonfood.000webhostapp.com/home.php
 ```
 
-
+Home Page
 ![Foodie Express Screenshot](./website_pics/home.jpeg)
 
+Admin Panel
+![Foodie Express Screenshot](./website_pics/admin_panel.png)
 
 ## HOW TO RUN
 Follow these simple steps to set up and run the Horizon food website locally on your machine.
