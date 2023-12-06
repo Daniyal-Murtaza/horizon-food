@@ -5,39 +5,48 @@ Welcome to Horizon Food, your go-to platform for ordering delicious meals and ha
 ![Foodie Express Screenshot](./website_pics/home.jpeg)
 
 
-## Getting Started
-
-Follow these simple steps to set up and run the Foodie Express website locally on your machine.
+## HOW TO RUN
+Follow these simple steps to set up and run the Horizon food website locally on your machine.
 
 ### Prerequisites
 
-- Web server (e.g., Apache, Nginx)
-- PHP (version 7.0 or higher)
-- MySQL 
-- XAMPP 
+- Just need to download one software:
+- XAMPP (https://www.youtube.com/watch?v=-f8N4FEQWyY)
+
 
 ### Installation
 
 1. Clone the repository to your local machine:
 
     ```bash
-    git clone https://github.com/yourusername/foodie-express.git
+    git clone https://github.com/Daniyal-Murtaza/horizon-food.git
+    ```
+2. Put the cloned repository folder in htdocs. (htdocs is where all of your local projects go. htdocs folder location: Windows - `C:\Xampp\htdocs`. Mac - `/opt/lampp/htdocs`.)
+
+3. Open XAMPP and start `Apache` and `MySQL`.
+
+4. Open URL:
+    ```bash
+    http://www.localhost/phpmyadmin/
     ```
 
-2. Create a new MySQL database and import the provided `database.sql` file to set up the necessary tables.
+5. Create a new MySQL database with name `food_db` and import the provided `food_db.sql` file to set up the database.
 
-3. Update the `config.php` file with your database credentials.
+6. Open your web browser and navigate to `http://localhost/horizon-food` to start using the website.
 
-4. Configure your web server to point to the project's root directory.
-
-5. Open your web browser and navigate to `http://localhost/foodie-express` to start using the Foodie Express website.
-
-## Features
+## Features for User
 
 - **User Authentication:** Create an account, log in, and manage your profile.
 - **Browse Menu:** Explore a variety of cuisines and dishes available for order.
 - **Order Placement:** Easily add items to your cart and place an order with a few clicks.
-- **Real-time Tracking:** Track the status of your order in real-time.
+- **Tracking:** Track the status of your order.
+- **Order History:** View your order history and easily reorder your favorite meals.
+
+## Features for Admin
+
+- **User Authentication:** Create an account, log in, and manage your profile (Also have right to make other admins).
+- **Browse Menu:** Add products available for order.
+- **Tracking:** Track the status of customer order.
 - **Order History:** View your order history and easily reorder your favorite meals.
 
 ## Technologies Used
@@ -52,7 +61,7 @@ We welcome contributions from the community. If you have ideas for new features,
 
 ## Support
 
-If you encounter any issues or have questions, please [open an issue](https://github.com/yourusername/foodie-express/issues). We're here to help!
+If you encounter any issues or have questions, please [open an issue](https://github.com/Daniyal-Murtaza/horizon-food/issues). We're here to help!
 
 ## License
 
@@ -60,4 +69,4 @@ This project is licensed under the [MIT License](LICENSE).
 
 ---
 
-Thank you for choosing Foodie Express! We hope you enjoy your online food ordering experience. If you have any feedback or suggestions, feel free to reach out. Happy eating! 🍔🍕🥗
+Thank you for choosing Horizon Food! We hope you enjoy your online food ordering experience. If you have any feedback or suggestions, feel free to reach out. Happy eating! 🍔🍕🥗
