@@ -2,6 +2,12 @@
 
 Welcome to Horizon Food, your go-to platform for ordering delicious meals and having them delivered right to your table. This web application is built using HTML, CSS, JavaScript, PHP, and MySQL to provide a seamless and enjoyable food ordering experience.
 
+To view live version of website tested on 000webhost: 
+```bash
+https://horizonfood.000webhostapp.com/home.php
+```
+
+
 ![Foodie Express Screenshot](./website_pics/home.jpeg)
 
 
@@ -32,7 +38,11 @@ Follow these simple steps to set up and run the Horizon food website locally on 
 
 5. Create a new MySQL database with name `food_db` and import the provided `food_db.sql` file to set up the database.
 
-6. Open your web browser and navigate to `http://localhost/horizon-food` to start using the website.
+6. Open your web browser and navigate to  
+    ```bash
+    http://localhost/horizon-food
+    ```
+to start using the website.
 
 ## Features for User
 
