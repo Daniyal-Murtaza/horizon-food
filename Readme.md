@@ -2,7 +2,7 @@
 
 Welcome to Horizon Food, your go-to platform for ordering delicious meals and having them delivered right to your table. This web application is built using HTML, CSS, JavaScript, PHP, and MySQL to provide a seamless and enjoyable food ordering experience.
 
-![Foodie Express Screenshot](./class%20diagrams/sequential_diagram.png)
+![Foodie Express Screenshot](./website_pics/home.jpeg)
 
 
 ## Getting Started
