@@ -11,18 +11,18 @@ if(isset($message)){
 }
 ?>
 
-<header class="header">
+<header class="header" style="box-shadow:0px 0px 10px 0px rgba(188, 188, 188, 0.34); border-bottom:none;">
 
    <section class="flex">
 
-      <a href="home.php" class="logo">Horizon <span style="color: #fed330"> Food </span></a>
+      <a href="home.php" class="logo"><img src="components/lom.png" alt="Horizon Food Logo"></a>
 
       <nav class="navbar">
-         <a href="home.php">home</a>
-         <a href="about.php">about</a>
-         <a href="menu.php">menu</a>
-         <a href="orders.php">orders</a>
-         <a href="contact.php">contact</a>
+         <a href="home.php">Home</a>
+         <a href="about.php">About</a>
+         <a href="menu.php">Menu</a>
+         <a href="orders.php">Orders</a>
+         <a href="contact.php">Contact</a>
       </nav>
 
       <div class="icons">

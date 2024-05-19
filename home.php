@@ -29,6 +29,7 @@ include 'components/add_cart.php';
 
    <!-- custom css file link  -->
    <link rel="stylesheet" href="css/style.css">
+   <link rel="stylesheet" href="css/danstyle.css">
 
 </head>
 <body>
@@ -170,7 +171,7 @@ include 'components/add_cart.php';
 
 
 
-
+  <a href="https://wa.me/923052323205" class="whatsapp"><i class="fa fa-phone"></i></a>
 
 
 
@@ -187,14 +188,18 @@ include 'components/add_cart.php';
 <script>
 
 var swiper = new Swiper(".hero-slider", {
-   loop:true,
+   loop: true,
    grabCursor: true,
    effect: "flip",
    pagination: {
       el: ".swiper-pagination",
-      clickable:true,
+      clickable: true,
+   },
+   autoplay: {
+      delay: 5000, // 5 seconds delay
    },
 });
+
 
 </script>
 

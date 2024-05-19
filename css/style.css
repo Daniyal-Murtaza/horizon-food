@@ -48,6 +48,8 @@ section{
    padding:2rem;
 }
 
+
+
 .title{
    text-align: center;
    margin-bottom: 2.5rem;
@@ -148,6 +150,10 @@ section{
    color:var(--black);
 }
 
+
+
+
+
 .empty{
    border:var(--border);
    padding:1.5rem;
@@ -215,7 +221,7 @@ section{
 
 .header .flex .profile{
    background-color: var(--white);
-   border:var(--border);
+   border:2px solid green;
    padding:1.5rem;
    text-align: center;
    position: absolute;
@@ -1002,6 +1008,7 @@ section{
 
 
 
+
 /* media queries  */
 
 @media (max-width:991px) {
@@ -1074,5 +1081,13 @@ section{
       flex-flow: column;
       gap:0;
    }   
+   
+    
+
+
+
+
+  
+  
 
 }

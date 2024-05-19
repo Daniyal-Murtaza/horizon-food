@@ -52,7 +52,7 @@ if(isset($_SESSION['user_id'])){
 
       <div class="content">
          <h3>why choose us?</h3>
-         <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Deserunt, neque debitis incidunt qui ipsum sed doloremque a molestiae in veritatis ullam similique sunt aliquam dolores dolore? Quasi atque debitis nobis!</p>
+         <p>At Grito, we are committed to providing hygienic drinks and food that prioritize your well-being. Our dedication extends beyond taste, ensuring a wholesome experience that aligns with the highest standards of cleanliness and quality. Trust us for a refreshing and nourishing journey at Grito!</p>
          <a href="menu.php" class="btn">our menu</a>
       </div>
 
@@ -73,19 +73,19 @@ if(isset($_SESSION['user_id'])){
       <div class="box">
          <img src="images/step-1.png" alt="">
          <h3>choose order</h3>
-         <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nesciunt, dolorem.</p>
+         <p>Please Select the food items you want to add on your cart to order them.</p>
       </div>
 
       <div class="box">
          <img src="images/step-2.png" alt="">
          <h3>fast delivery</h3>
-         <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nesciunt, dolorem.</p>
+         <p>Our Robot will deliver your order at your table with super reliability and fast delivery.</p>
       </div>
 
       <div class="box">
          <img src="images/step-3.png" alt="">
          <h3>enjoy food</h3>
-         <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nesciunt, dolorem.</p>
+         <p>Enjoy your Food with the amazing view of Horizon.</p>
       </div>
 
    </div>
@@ -106,7 +106,7 @@ if(isset($_SESSION['user_id'])){
 
          <div class="swiper-slide slide">
             <img src="images/pic-1.png" alt="">
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quos voluptate eligendi laborum molestias ut earum nulla sint voluptatum labore nemo.</p>
+            <p>Absolutely delicious! The flavors at Horizonfood are unmatched. The presentation of the dishes is top-notch, and every bite is a burst of culinary perfection. Highly recommended!</p>
             <div class="stars">
                <i class="fas fa-star"></i>
                <i class="fas fa-star"></i>
@@ -114,12 +114,12 @@ if(isset($_SESSION['user_id'])){
                <i class="fas fa-star"></i>
                <i class="fas fa-star-half-alt"></i>
             </div>
-            <h3>john deo</h3>
+            <h3>Syed Hussain</h3>
          </div>
 
          <div class="swiper-slide slide">
             <img src="images/pic-2.png" alt="">
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quos voluptate eligendi laborum molestias ut earum nulla sint voluptatum labore nemo.</p>
+            <p>Horizonfood never disappoints! The quality of ingredients is evident in every dish. From appetizers to desserts, the menu offers a diverse range of options, and each one is a delightful journey for the taste buds.</p>
             <div class="stars">
                <i class="fas fa-star"></i>
                <i class="fas fa-star"></i>
@@ -127,12 +127,12 @@ if(isset($_SESSION['user_id'])){
                <i class="fas fa-star"></i>
                <i class="fas fa-star-half-alt"></i>
             </div>
-            <h3>john deo</h3>
+            <h3>Fatima Ali</h3>
          </div>
 
          <div class="swiper-slide slide">
             <img src="images/pic-3.png" alt="">
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quos voluptate eligendi laborum molestias ut earum nulla sint voluptatum labore nemo.</p>
+            <p>The staff is friendly and attentive, and the food is a true gastronomic delight. The blend of textures and flavors in each dish showcases the chef's expertise. It is a must go place for drinks.</p>
             <div class="stars">
                <i class="fas fa-star"></i>
                <i class="fas fa-star"></i>
@@ -140,12 +140,12 @@ if(isset($_SESSION['user_id'])){
                <i class="fas fa-star"></i>
                <i class="fas fa-star-half-alt"></i>
             </div>
-            <h3>john deo</h3>
+            <h3>Ahmed Khan</h3>
          </div>
 
          <div class="swiper-slide slide">
             <img src="images/pic-4.png" alt="">
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quos voluptate eligendi laborum molestias ut earum nulla sint voluptatum labore nemo.</p>
+            <p>The menu boasts a creative fusion of flavors that truly elevates the dining experience. The attention to detail is impressive, and the ambiance adds a touch of sophistication to the overall meal.</p>
             <div class="stars">
                <i class="fas fa-star"></i>
                <i class="fas fa-star"></i>
@@ -153,12 +153,12 @@ if(isset($_SESSION['user_id'])){
                <i class="fas fa-star"></i>
                <i class="fas fa-star-half-alt"></i>
             </div>
-            <h3>john deo</h3>
+            <h3>Rabia batool</h3>
          </div>
 
          <div class="swiper-slide slide">
             <img src="images/pic-5.png" alt="">
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quos voluptate eligendi laborum molestias ut earum nulla sint voluptatum labore nemo.</p>
+            <p>The chefs here clearly have a passion for creating memorable culinary experiences. A must-try for food enthusiasts! Truly, a culinary gem with a great experience in hands.</p>
             <div class="stars">
                <i class="fas fa-star"></i>
                <i class="fas fa-star"></i>
@@ -166,12 +166,12 @@ if(isset($_SESSION['user_id'])){
                <i class="fas fa-star"></i>
                <i class="fas fa-star-half-alt"></i>
             </div>
-            <h3>john deo</h3>
+            <h3>Daniyal khan</h3>
          </div>
 
          <div class="swiper-slide slide">
             <img src="images/pic-6.png" alt="">
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quos voluptate eligendi laborum molestias ut earum nulla sint voluptatum labore nemo.</p>
+            <p>The menu offers a delightful mix of traditional and innovative dishes. The portions are generous, and the prices are reasonable for the quality of food you receive. </p>
             <div class="stars">
                <i class="fas fa-star"></i>
                <i class="fas fa-star"></i>
@@ -179,7 +179,7 @@ if(isset($_SESSION['user_id'])){
                <i class="fas fa-star"></i>
                <i class="fas fa-star-half-alt"></i>
             </div>
-            <h3>john deo</h3>
+            <h3>li han</h3>
          </div>
 
       </div>
@@ -212,7 +212,7 @@ if(isset($_SESSION['user_id'])){
 
 <!-- footer section starts  -->
 <?php include 'components/footer.php'; ?>
-<!-- footer section ends -->=
+<!-- footer section ends -->
 
 
 

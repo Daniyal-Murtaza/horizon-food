@@ -35,8 +35,9 @@ if(isset($_POST['submit'])){
          $message[] = 'please add your address!';
       }else{
          
-         $insert_order = $conn->prepare("INSERT INTO `orders`(user_id, name, number, email, method, address, total_products, total_price) VALUES(?,?,?,?,?,?,?,?)");
+         $insert_order = $conn->prepare("INSERT INTO `orders` (user_id, name, number, email, method, address, total_products, total_price, time) VALUES (?, ?, ?, ?, ?, ?, ?, ?, NOW())");
          $insert_order->execute([$user_id, $name, $number, $email, $method, $address, $total_products, $total_price]);
+
 
          $delete_cart = $conn->prepare("DELETE FROM `cart` WHERE user_id = ?");
          $delete_cart->execute([$user_id]);
@@ -97,14 +98,14 @@ if(isset($_POST['submit'])){
                $total_products = implode($cart_items);
                $grand_total += ($fetch_cart['price'] * $fetch_cart['quantity']);
       ?>
-      <p><span class="name"><?= $fetch_cart['name']; ?></span><span class="price">$<?= $fetch_cart['price']; ?> x <?= $fetch_cart['quantity']; ?></span></p>
+      <p><span class="name"><?= $fetch_cart['name']; ?></span><span class="price">Rs.<?= $fetch_cart['price']; ?> x <?= $fetch_cart['quantity']; ?></span></p>
       <?php
             }
          }else{
             echo '<p class="empty">your cart is empty!</p>';
          }
       ?>
-      <p class="grand-total"><span class="name">grand total :</span><span class="price">$<?= $grand_total; ?></span></p>
+      <p class="grand-total"><span class="name">grand total :</span><span class="price">Rs.<?= $grand_total; ?></span></p>
       <a href="cart.php" class="btn">veiw cart</a>
    </div>
 
@@ -121,15 +122,20 @@ if(isset($_POST['submit'])){
       <p><i class="fas fa-phone"></i><span><?= $fetch_profile['number'] ?></span></p>
       <p><i class="fas fa-envelope"></i><span><?= $fetch_profile['email'] ?></span></p>
       <a href="update_profile.php" class="btn">update info</a>
-      <h3>delivery address</h3>
-      <p><i class="fas fa-map-marker-alt"></i><span><?php if($fetch_profile['address'] == ''){echo 'please enter your address';}else{echo $fetch_profile['address'];} ?></span></p>
-      <a href="update_address.php" class="btn">update address</a>
+
+      <h3>your table number</h3>
       <select name="method" class="box" required>
-         <option value="" disabled selected>select payment method --</option>
-         <option value="cash on delivery">cash on delivery</option>
-         <option value="credit card">credit card</option>
-         <option value="paytm">Sadapay</option>
-         <option value="paypal">paypal</option>
+         <option value="" disabled selected>select table number --</option>
+        <option value="1">1</option>
+        <option value="2">2</option>
+        <option value="3">3</option>
+        <option value="4">4</option>
+        <option value="5">5</option>
+        <option value="6">6</option>
+        <option value="7">7</option>
+        <option value="8">8</option>
+        <option value="9">9</option>
+        <option value="10">10</option>
       </select>
       <input type="submit" value="place order" class="btn <?php if($fetch_profile['address'] == ''){echo 'disabled';} ?>" style="width:100%; background:var(--red); color:var(--white);" name="submit">
    </div>
